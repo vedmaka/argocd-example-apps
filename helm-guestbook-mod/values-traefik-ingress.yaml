@@ -1,0 +1,9 @@
+service:
+  type: LoadBalancer
+
+ingress:
+  enabled: true
+  annotations:
+    - kubernetes.io/ingress.class: traefik
+  hosts:
+    - guestbook-mod.mediawiki.pro
