@@ -1,6 +1,3 @@
-service:
-  type: LoadBalancer
-
 ingress:
   enabled: true
   annotations:
